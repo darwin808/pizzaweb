@@ -1,0 +1,222 @@
+.menuItems{
+    display: none;
+}
+
+li,.fas,h1,button{
+    cursor: pointer;
+}
+
+.btn{
+    padding: 1rem 5rem;
+    background-color: red;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    margin-top: 15rem;
+}
+
+.fas{
+    z-index: 99;
+    
+}
+
+/* desktop size */
+@media ( min-width: 979px){
+.Navbar{
+   
+    background: none;
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    color: white;
+    font-family: 'Kanit', sans-serif; 
+ align-items: center;
+ padding-right: 5rem;
+
+
+  
+}
+
+.mainHeader{
+flex: 1;
+font-size: 4rem;
+
+}
+
+.menu{
+
+    flex: 1;
+    margin-right: 3rem;
+}
+
+.menuItems{
+    color: black;
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(255, 174, 0);
+    list-style: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-items: center;
+    
+}
+
+ul li{
+   font-size: 2rem;
+   margin: 2rem 0;
+
+}
+
+
+
+
+}
+
+
+/* tablet size */
+
+@media (min-width: 767px) and (max-width: 979px) { 
+
+
+ .Navbar{
+        display: flex;
+        padding: 1rem 0;
+        position: relative;
+        align-items: center;
+        color: white;
+
+    }
+
+    .mainHeader{
+flex: 1;
+font-size: 4rem;
+padding: 0 2rem;
+}
+
+.menu{
+    display: none;
+    flex: 1;
+}
+
+.fas{
+    position: absolute;
+    top: 2.5rem;
+    right: 1rem;
+    z-index: 99;
+    color: black;
+}
+
+.menuItems{
+    color: black;
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(255, 174, 0);
+    list-style: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-items: center;
+    
+}
+
+ul li{
+   font-size: 2rem;
+   margin: 2rem 0;
+
+}
+
+
+}
+
+
+/* Landscape phones and down */
+@media (min-width:200px)and (max-width: 766px) { 
+    .Navbar{
+        display: flex;
+        padding: 1rem 0;
+        position: relative;
+        align-items: center;
+        color: white;
+
+    }
+
+    .mainHeader{
+flex: 1;
+font-size: 4rem;
+padding: 0 2rem;
+}
+
+.menu{
+    display: none;
+    flex: 1;
+}
+
+.fas{
+    position: absolute;
+    top: 2.5rem;
+    right: 1rem;
+    z-index: 99;
+  color: white;
+}
+
+.menuItems{
+    color: black;
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(255, 174, 0);
+    list-style: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+  right: 0;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-items: center;
+ animation-name: myani;
+ animation-duration: 0.3s;
+ 
+    
+}
+
+
+.menuItems:active{
+     animation-name: myani;
+ animation-duration: 0.3s;
+}
+
+ul li{
+   font-size: 2rem;
+   margin: 2rem 0;
+
+}
+
+@keyframes myani{
+
+    from {transform:translateX(700px)}
+    to{transform: translateX(0);}
+    
+}
+
+
+@keyframes myout{
+    from {opacity: 1;}
+    to{opacity: 0;}
+}
+
+}
+
