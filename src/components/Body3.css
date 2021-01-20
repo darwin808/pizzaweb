@@ -1,0 +1,180 @@
+
+
+
+@media (min-width: 979px) {
+
+
+
+.body3{
+    position: relative;
+    z-index: 99;
+    height: 100vh;
+    width: 100%;
+   background-color: #150F11;
+   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+scroll-snap-align: start;
+  
+
+}
+
+#imgb3{
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.headerb4{
+    font-size: 4rem;
+}
+.h2b4{
+    font-size: 2rem;
+}
+
+.btnb4{
+    border: none;
+    border-radius: 2px;
+    margin-top: 1rem;
+    font-size: 20px;
+    padding: 1rem 2.3rem;
+    background-color: rgb(252, 165, 3);
+}
+
+
+
+}
+
+
+
+
+
+@media (min-width:767px) and (max-width:979px){
+
+
+
+
+
+
+.body3{
+    position: relative;
+    z-index: 99;
+    height: 100vh;
+    width: 100%;
+   background-color: black;
+   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+scroll-snap-align: start;
+  
+
+}
+
+#imgb3{
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.headerb4{
+    font-size: 4rem;
+}
+.h2b4{
+    font-size: 2rem;
+}
+
+.btnb4{
+    border: none;
+    border-radius: 2px;
+    margin-top: 1rem;
+    font-size: 20px;
+    padding: 1rem 2.3rem;
+    background-color: rgb(252, 165, 3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (min-width:200px) and (max-width:766px)
+{
+
+
+
+
+.body3{
+    position: relative;
+    z-index: 99;
+    height: 100vh;
+    width: 100%;
+   background-color: black;
+   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  scroll-snap-align: start;
+
+}
+
+#imgb3{
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.headerb4{
+    font-size: 2rem;
+}
+.h2b4{
+    font-size: 1rem;
+}
+
+.btnb4{
+    border: none;
+    border-radius: 2px;
+    margin-top: 1rem;
+    font-size: 10px;
+    padding: .7rem 1.7rem;
+    background-color: rgb(252, 165, 3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

@@ -1,0 +1,29 @@
+.Foo{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+
+scroll-snap-align: end;
+}
+
+.fooh{
+    font-size: 3rem;
+}
+
+.fooitems{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+
+.fab{
+    margin: 1rem 1rem;
+}

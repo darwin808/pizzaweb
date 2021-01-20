@@ -20,7 +20,7 @@ const Navbar = () => {
   };
   return (
     <div className="Navbar">
-      <h1 className="mainHeader">Pizza {width}</h1>
+      <h1 className="mainHeader">Pizza</h1>
 
       <h2 className="menu">Menu</h2>
       <i

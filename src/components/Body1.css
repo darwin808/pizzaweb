@@ -7,7 +7,11 @@
     display: flex;
     flex-direction: column;
     color: white;
-    font-family: 'Kanit', sans-serif; 
+    font-family: 'Kanit', sans-serif;
+    
+    
+
+scroll-snap-align: start;
 } 
 
 .body1-container{
@@ -57,7 +61,8 @@ font-size: 6rem;
     display: flex;
     flex-direction: column;
     color: white;
-    font-family: 'Kanit', sans-serif; 
+    font-family: 'Kanit', sans-serif;
+scroll-snap-align: start;
 } 
 
 .body1-container{
@@ -115,6 +120,8 @@ font-size: 6rem;
     flex-direction: column;
     color: white;
     font-family: 'Kanit', sans-serif; 
+
+scroll-snap-align: start;
 } 
 
 .body1-container{
